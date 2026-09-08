@@ -15,7 +15,7 @@ body {
 }
 
 .main {
-    height: 60%;
+    height: 70%;
     width: 40%;
     background-color: gray;
     display: flex;
@@ -60,5 +60,34 @@ h2 {
 p{
     font-weight: 700;
     font-size: 18px;
+
+}
+@media(max-width :768px ){
+
+.main {
+    height: 90%;
+    width: 40%;
+    background-color: gray;
+    gap: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px aquamarine;
+    background: linear-gradient(to bottom, white, gray);
+}
+input {
+    padding: 7px;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+} 
+h2{
+    font-size: 15px;
+    
+}
+#btn{
+     padding: 4px;
+     
+}
+
+
 
 }
